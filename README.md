@@ -32,6 +32,9 @@ npm start
             }
     ```
 
+- ## SQL
+        En la carpeta sql se tienen los querys para la otra parte del test
+
 ## Tech
 
 Yaydoo test used next technologies:
