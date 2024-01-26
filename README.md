@@ -33,7 +33,7 @@ npm start
     ```
 
 - ## SQL
-        En la carpeta sql se tienen los querys para la otra parte del test
+        The 'sql' folder contains the queries for the other part of the test.
 
 ## Tech
 
