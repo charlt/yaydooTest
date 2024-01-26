@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+   "target": "es6",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    /* Experimental Options */
+    "experimentalDecorators": true, 
+    "emitDecoratorMetadata": true
+ },
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts",
+    "./src/services/template" 
+   ],
+   "include": [
+    "src/*.ts",
+    "src/*.html",
+    "src/services/template.html"
+   ]
+ }
