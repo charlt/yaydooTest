@@ -16,12 +16,10 @@
  },
   "exclude": [
     "node_modules",
-    "**/*.spec.ts",
-    "./src/services/template" 
+    "**/*.spec.ts"
    ],
    "include": [
     "src/*.ts",
-    "src/*.html",
-    "src/services/template.html"
+    "src/*.html"
    ]
  }

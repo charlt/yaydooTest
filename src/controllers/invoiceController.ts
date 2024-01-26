@@ -43,9 +43,10 @@ export default class InvoiceController {
 
       res.json(response);
     } catch (error: any) {
-      console.log("errorService >>", error);
+      console.log("errorController >>", error);
       if (error.code && error.message) {
         res.json(error);
+        return;
       }
       res.json(formatError.internalError);
     }
